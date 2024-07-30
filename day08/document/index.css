@@ -1,0 +1,26 @@
+/* box */
+/* 높이 : 100, 넓이:100 컨텐츠 가운데로
+배경색은 하늘색 */
+
+.box {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.button {
+    width: 170px;
+    height: 50px;
+
+    background-color: gray;
+    padding: 1px 6px 1px 6px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 17px;
+    color: #373855;
+}
